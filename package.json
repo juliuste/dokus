@@ -1,0 +1,49 @@
+{
+  "name": "dokus",
+  "description": "Get metadata for documentaries from multiple german public TV broadcast media libraries.",
+  "version": "0.1.0",
+  "keywords": [
+    "german",
+    "deutsche",
+    "welle",
+    "tv",
+    "swr",
+    "mdr",
+    "arte",
+    "documentary",
+    "dokumentation",
+    "doku",
+    "tag",
+    "keywords",
+    "meta",
+    "data",
+    "media",
+    "library",
+    "mediathek"
+  ],
+  "author": "Julius Tens <mail@juliustens.de>",
+  "homepage": "https://github.com/juliuste/dokus",
+  "repository": "juliuste/dokus",
+  "bugs": "https://github.com/juliuste/dokus/issues",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "helpers.js",
+    "arte.js",
+    "mdr.js",
+    "swr.js",
+    "dw.js"
+  ],
+  "dependencies": {
+    "array-intersection": "^0.1.2",
+    "cheerio": "^0.22.0",
+    "got": "^6.5.0",
+    "simple-rss": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "engine": {
+    "node": ">=6"
+  },
+  "license": "MIT"
+}
