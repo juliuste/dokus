@@ -15,7 +15,7 @@ const parseList = (res) => {
 	})
 	return h.cleanList(links)
 }
-const getList = (url) => got(url).then(parseList, h.err)
+const getList = (url) => got(url).then(parseList)
 
 const adaptResult = (result) => {
 	result.title = result.title.substring(0, result.title.length-37)
@@ -23,6 +23,6 @@ const adaptResult = (result) => {
 	return result
 }
 
-const main = () => getList(listURL).then(h.getMetaList(adaptResult), h.err)
+const main = () => getList(listURL).then(h.getMetaList(adaptResult))
 
 module.exports = main

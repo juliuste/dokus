@@ -1,7 +1,7 @@
 {
   "name": "dokus",
   "description": "Get metadata for documentaries from multiple german public TV broadcast media libraries.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "keywords": [
     "german",
     "deutsche",
@@ -41,7 +41,10 @@
     "simple-rss": "^1.0.0"
   },
   "devDependencies": {},
-  "scripts": {},
+  "scripts": {
+    "test": "node test.js",
+    "prepublish": "npm test"
+  },
   "engine": {
     "node": ">=6"
   },

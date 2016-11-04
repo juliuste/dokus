@@ -18,13 +18,13 @@ const parseList = (res) => {
 	links = h.cleanList(links)
 	return links
 }
-const getList = (url) => got(url).then(parseList, h.err)
+const getList = (url) => got(url).then(parseList)
 
 const adaptResult = (result) => {
 	result.network = 'swr'
 	return result
 }
 
-const main = () => getList(listURL).then(h.getMetaList(h.id), h.err)
+const main = () => getList(listURL).then(h.getMetaList(adaptResult))
 
 module.exports = main

@@ -13,6 +13,6 @@ const concatLists = (list) => {
 	return result
 }
 
-const all = () => Promise.all([arte(), mdr(), swr(), dw()]).then((data) => concatLists(data), (err) => {throw new Error(err)})
+const all = () => Promise.all([arte(), mdr(), swr(), dw()]).then((data) => concatLists(data))
 
 module.exports = {all, arte, mdr, swr, dw}

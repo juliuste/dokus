@@ -18,7 +18,7 @@ const parseStart = (res) => {
 	}
 	return baseURL+links[0]
 }
-const getStart = (url) => got(url).then(parseStart, h.err)
+const getStart = (url) => got(url).then(parseStart)
 
 const parseList = (res) => {
 	const $ = dom.load(res.body)
@@ -30,7 +30,7 @@ const parseList = (res) => {
 	})
 	return h.cleanList(links).map((el) => baseURL+el)
 }
-const getList = (url) => got(url).then(parseList, h.err)
+const getList = (url) => got(url).then(parseList)
 
 const adaptResult = (result) => {
 	result.title = result.title.substring(0, result.title.length-9)
@@ -38,6 +38,6 @@ const adaptResult = (result) => {
 	return result
 }
 
-const main = () => getStart(startURL).then(getList, h.err).then(h.getMetaList(adaptResult), h.err)
+const main = () => getStart(startURL).then(getList).then(h.getMetaList(adaptResult))
 
 module.exports = main

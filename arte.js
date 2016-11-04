@@ -29,6 +29,6 @@ const parseItems = (items) => {
 	return h.cleanList(result)
 }
 
-const main = () => rss(feedURL).then(parseItems, h.err)
+const main = () => rss(feedURL).then(parseItems)
 
 module.exports = main

@@ -2,8 +2,6 @@
 const dom = require('cheerio')
 const got = require('got')
 
-const id = (i) => i
-const err = (error) => {throw new Error(error)}
 const removeDuplicates = (list) => Array.from(new Set(list))
 const removeEmpty = (list) => {
 	const newList = []
@@ -31,7 +29,7 @@ const getMeta = (url) => {
 }
 
 const getMetaList = (adapt) => (list) => {
-	return Promise.all(list.map(getMeta)).then((results) => cleanList(results).map(adapt), err)
+	return Promise.all(list.map(getMeta)).then((results) => cleanList(results).map(adapt))
 }
 
-module.exports = {id, err, removeDuplicates, removeEmpty, cleanList, getMeta, getMetaList}
+module.exports = {removeDuplicates, removeEmpty, cleanList, getMeta, getMetaList}
