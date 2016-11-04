@@ -5,7 +5,7 @@ const dom = require('cheerio')
 const h = require('./helpers')
 
 const startURL = 'http://www.mdr.de/mediathek/themen/reportage/index.html'
-const baseURL = 'http://mdr.de/'
+const baseURL = 'http://mdr.de'
 
 const parseStart = (res) => {
 	let html = res.body.replace(/\s/g, "")
