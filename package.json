@@ -1,7 +1,7 @@
 {
   "name": "dokus",
   "description": "Get metadata for documentaries from multiple german public TV broadcast media libraries.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "keywords": [
     "german",
     "deutsche",
@@ -9,6 +9,7 @@
     "tv",
     "swr",
     "mdr",
+    "rbb",
     "arte",
     "documentary",
     "dokumentation",
@@ -32,6 +33,7 @@
     "arte.js",
     "mdr.js",
     "swr.js",
+    "rbb.js",
     "dw.js"
   ],
   "dependencies": {
