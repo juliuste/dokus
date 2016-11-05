@@ -1,6 +1,6 @@
 # dokus
 
-Fetch information about documentaries in the **[ARTE](http://www.arte.tv/guide/de/plus7/?country=DE)**, **[RBB](http://mediathek.rbb-online.de/tv)**, **[MDR](http://www.mdr.de/mediathek/)**, **[SWR](http://swrmediathek.de)** and **[Deutsche Welle](http://www.dw.com/de/media-center/alle-inhalte/s-100814)** media libraries.
+Fetch information about documentaries in the **[ARTE](http://www.arte.tv/guide/de/plus7/?country=DE)**, **[Das Erste](http://mediathek.daserste.de/)**, **[RBB](http://mediathek.rbb-online.de/tv)**, **[MDR](http://www.mdr.de/mediathek/)**, **[SWR](http://swrmediathek.de)** and **[Deutsche Welle](http://www.dw.com/de/media-center/alle-inhalte/s-100814)** media libraries.
 
 [![npm version](https://img.shields.io/npm/v/dokus.svg)](https://www.npmjs.com/package/dokus)
 [![dependency status](https://img.shields.io/david/juliuste/dokus.svg)](https://david-dm.org/juliuste/dokus)
@@ -9,7 +9,7 @@ Fetch information about documentaries in the **[ARTE](http://www.arte.tv/guide/d
 
 ## Usage
 
-The module has the following methods: `all`, `arte`, `rbb`, `mdr`, `swr` and `dw`. Each method returns a `Promise` which resolves in a list of objects representing single documentaries:
+The module has the following methods: `all`, `arte`, `daserste`, `rbb`, `mdr`, `swr` and `dw`. Each method returns a `Promise` which resolves in a list of objects representing single documentaries:
 
 ```javascript
 const dokus = require('dokus')
@@ -27,6 +27,8 @@ will resolve in a list of objects which look like this:
 		network: 'arte'
 	}
 ```
+
+Please note that the script - especially `daserste` - may take a while to run.
 
 ## Similar Projects
 

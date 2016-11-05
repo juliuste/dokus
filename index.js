@@ -1,6 +1,7 @@
 'use strict'
 
 const arte = require('./arte')
+const daserste = require('./daserste')
 const mdr = require('./mdr')
 const swr = require('./swr')
 const rbb = require('./rbb')
@@ -14,6 +15,6 @@ const concatLists = (list) => {
 	return result
 }
 
-const all = () => Promise.all([arte(), mdr(), swr(), rbb(), dw()]).then((data) => concatLists(data))
+const all = () => Promise.all([arte(), daserste(), mdr(), swr(), rbb(), dw()]).then((data) => concatLists(data))
 
-module.exports = {all, arte, mdr, swr, rbb, dw}
+module.exports = {all, arte, daserste, mdr, swr, rbb, dw}
