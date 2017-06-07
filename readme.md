@@ -1,5 +1,7 @@
 # dokus
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/juliuste/dokus.svg)](https://greenkeeper.io/)
+
 Fetch information about documentaries in the **[ARTE](http://www.arte.tv/guide/de/plus7/?country=DE)**, **[Das Erste](http://mediathek.daserste.de/)**, **[RBB](http://mediathek.rbb-online.de/tv)**, **[MDR](http://www.mdr.de/mediathek/)**, **[SWR](http://swrmediathek.de)** and **[Deutsche Welle](http://www.dw.com/de/media-center/alle-inhalte/s-100814)** media libraries.
 
 [![npm version](https://img.shields.io/npm/v/dokus.svg)](https://www.npmjs.com/package/dokus)
