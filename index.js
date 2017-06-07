@@ -1,11 +1,11 @@
 'use strict'
 
-const arte = require('./arte')
-const daserste = require('./daserste')
-const mdr = require('./mdr')
-const swr = require('./swr')
-const rbb = require('./rbb')
-const dw = require('./dw')
+const arte = require('./lib/arte')
+const daserste = require('./lib/daserste')
+const mdr = require('./lib/mdr')
+const swr = require('./lib/swr')
+const rbb = require('./lib/rbb')
+const dw = require('./lib/dw')
 
 const concatLists = (list) => {
 	let result = []
