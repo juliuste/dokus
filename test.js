@@ -16,5 +16,4 @@ t.arte().then(h('arte')).catch(err)
 t.daserste().then(h('daserste')).catch(err) // takes quite long to run
 t.swr().then(h('swr')).catch(err)
 t.mdr().then(h('mdr')).catch(err)
-t.mdr().then(h('rbb')).catch(err)
 t.dw().then(h('dw')).catch(err)
