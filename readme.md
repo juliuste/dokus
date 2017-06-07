@@ -3,9 +3,11 @@
 Fetch information about documentaries in the **[ARTE](http://www.arte.tv/guide/de/plus7/?country=DE)**, **[Das Erste](http://mediathek.daserste.de/)**, **[RBB](http://mediathek.rbb-online.de/tv)**, **[MDR](http://www.mdr.de/mediathek/)**, **[SWR](http://swrmediathek.de)** and **[Deutsche Welle](http://www.dw.com/de/media-center/alle-inhalte/s-100814)** media libraries.
 
 [![npm version](https://img.shields.io/npm/v/dokus.svg)](https://www.npmjs.com/package/dokus)
+[![Build Status](https://travis-ci.org/juliuste/dokus.svg?branch=master)](https://travis-ci.org/juliuste/dokus)
 [![dependency status](https://img.shields.io/david/juliuste/dokus.svg)](https://david-dm.org/juliuste/dokus)
 [![dev dependency status](https://img.shields.io/david/dev/juliuste/dokus.svg)](https://david-dm.org/juliuste/dokus#info=devDependencies)
 [![license](https://img.shields.io/github/license/juliuste/dokus.svg?style=flat)](LICENSE)
+[![chat on gitter](https://badges.gitter.im/juliuste.svg)](https://gitter.im/juliuste)
 
 ## Usage
 
