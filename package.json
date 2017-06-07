@@ -1,7 +1,7 @@
 {
   "name": "dokus",
   "description": "Get metadata for documentaries from multiple german public TV broadcast media libraries.",
-  "version": "0.1.3",
+  "version": "1.0.0",
   "keywords": [
     "german",
     "deutsche",
