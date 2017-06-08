@@ -3,6 +3,7 @@
 const arte = require('./lib/arte')
 const daserste = require('./lib/daserste')
 const mdr = require('./lib/mdr')
+const srf = require('./lib/srf')
 const swr = require('./lib/swr')
 const dw = require('./lib/dw')
 
@@ -14,6 +15,6 @@ const concatLists = (list) => {
 	return result
 }
 
-const all = () => Promise.all([arte(), daserste(), mdr(), swr(), dw()]).then((data) => concatLists(data))
+const all = () => Promise.all([arte(), daserste(), mdr(), srf(), swr(), dw()]).then((data) => concatLists(data))
 
-module.exports = {all, arte, daserste, mdr, swr, dw}
+module.exports = {all, arte, daserste, mdr, srf, swr, dw}
