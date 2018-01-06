@@ -4,6 +4,7 @@ Fetch information about documentaries in the **[ARTE](http://www.arte.tv/guide/d
 
 [![npm version](https://img.shields.io/npm/v/dokus.svg)](https://www.npmjs.com/package/dokus)
 [![Build Status](https://travis-ci.org/juliuste/dokus.svg?branch=master)](https://travis-ci.org/juliuste/dokus)
+[![Greenkeeper badge](https://badges.greenkeeper.io/juliuste/dokus.svg)](https://greenkeeper.io/)
 [![dependency status](https://img.shields.io/david/juliuste/dokus.svg)](https://david-dm.org/juliuste/dokus)
 [![dev dependency status](https://img.shields.io/david/dev/juliuste/dokus.svg)](https://david-dm.org/juliuste/dokus#info=devDependencies)
 [![license](https://img.shields.io/github/license/juliuste/dokus.svg?style=flat)](LICENSE)
