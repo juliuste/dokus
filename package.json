@@ -37,7 +37,7 @@
   "dependencies": {
     "array-intersection": "^0.1.2",
     "cheerio": "^1.0.0-rc.2",
-    "got": "^8.0.0",
+    "got": "^9.6.0",
     "lodash.find": "^4.6.0",
     "simple-rss": "^1.0.0"
   },
